@@ -21,12 +21,12 @@ if 조건:
 
 
 # 오전 오후
+
 import datetime
 import zoneinfo  # python ver 3.9 이상에서만 적용 
 
 
 today = datetime.datetime.now(zoneinfo.ZoneInfo("Asia/Seoul"))
-
 # print(today)
 
 if today.hour < 12 : 
@@ -55,4 +55,3 @@ if 12 <= m <= 2:
     print("겨울입니다")
 
 
- # c 20  5:37
