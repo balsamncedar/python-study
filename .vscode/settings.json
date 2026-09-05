@@ -1,0 +1,9 @@
+{
+    "editor.inlineSuggest.edits.allowCodeShifting": "always",
+    "editor.quickSuggestions": {
+
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    }
+}
